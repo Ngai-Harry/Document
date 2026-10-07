@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Send Notification to Discord
         env:
-          DISCORD_WEBHOOK: "https://discord.com/api/webhooks/1538386176506073220/0jdWYSPb4laDxeVknLX41yRz7gu5FSytVrt29Gzv9Xg7FPiNr85hxueLjX6hcalp61g8"
+          DISCORD_WEBHOOK: "https://discord.com/api/webhooks/1549746648832286821/9Cj31IpXGouPeCm3g6EzO7p5SZ28OxHMHK7SMFpmvLv5_b7OAoh_8Oshsz_61UMFIdDa"
           COMMIT_MSG: ${{ github.event.head_commit.message }}
           COMMIT_URL: ${{ github.event.head_commit.url }}
           AUTHOR_NAME: ${{ github.event.head_commit.author.name }}
